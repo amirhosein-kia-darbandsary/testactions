@@ -1,0 +1,13 @@
+
+
+name: test
+
+on: [push]
+
+
+jobs:
+  test:
+    runs-on: ubunto-latest
+    steps:
+      - name: Print something
+        run: echo "hello test"
