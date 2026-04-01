@@ -1,13 +1,14 @@
+name: Learning
 
 
-name: CI
-
-on: [push]
+on:
+  push:
+    branches:
+      - dev
 
 
 jobs:
-  test:
-    runs-on: ubunto-latest
+  build:
+    runs_on: ubunto_latest
     steps:
-      - name: Print something
-        run: echo "hello test"
+      - run: echo "Hello Dev Branch 🚀"
