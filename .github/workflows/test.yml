@@ -9,6 +9,6 @@ on:
 
 jobs:
   build:
-    runs_on: ubunto_latest
+    runs-on: ubunto-latest
     steps:
       - run: echo "Hello Dev Branch 🚀"
